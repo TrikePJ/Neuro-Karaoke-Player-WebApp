@@ -1,0 +1,66 @@
+{
+  
+  "name": "neurokaraokeplayer",
+  "productName": "Neuro Karaoke Player",
+  "version": "1.0.0",
+  "description": "Desktop wrapper for neurokaraoke.com",
+  "main": "main.js",
+  "author": "trehjuling (Trike)",
+  "license": "ask soul :3",
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win"
+  },
+
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.4.0"
+  },
+
+  "build": {
+    "appId": "com.neurokaraokeplayer.app",
+    "productName": "Neuro Karaoke Player",
+    "artifactName": "${productName} Setup.${ext}",
+    "asar": true,
+
+    "files": [
+      "**/*",
+      "!node_modules/.cache/**"
+    ],
+
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+
+    "directories": {
+      "buildResources": "assets",
+      "output": "Installer"
+    },
+
+    "win": {
+      "icon": "assets/neurokaraoke.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "signAndEditExecutable": true
+    },
+
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false,
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Neuro Karaoke Player",
+      "menuCategory": "NeuroSama"
+    }
+  }
+}
