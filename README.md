@@ -2,9 +2,8 @@
 
 ### Via pre build installer
 1. **Download the installer** from the [Releases](https://github.com/TrikePJ/Neuro-Karaoke-Player-Test/releases) page
-2. Download `Neuro Karaoke Player Setup.exe`
-3. **Run the installer**
-4. The Player opens right after installation
+2. **Run the installer**
+3. The Player opens right after installation
 
 ### Build it yourself
 
