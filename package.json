@@ -6,11 +6,10 @@
   "description": "Desktop wrapper for neurokaraoke.com",
   "main": "main.js",
   "author": "trehjuling (Trike)",
-  "license": "ask soul :3",
+  "license": "MIT",
 
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder",
+    "start": "electron",
     "build:win": "electron-builder --win"
   },
 
