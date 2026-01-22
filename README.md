@@ -27,4 +27,10 @@
    ```
 6. You can find the installer in the `Installer` folder:
    - `Neuro Karaoke Player Setup.exe`
-   
+
+   ## Features
+
+-  Neuro Karaoke website by soul in a native desktop window
+-  Discord login works with persistent sessions
+-  Closing the App hides to Sys Tray 
+  
