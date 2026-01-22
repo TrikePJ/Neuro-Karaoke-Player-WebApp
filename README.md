@@ -1,3 +1,6 @@
+### All Credits go to Soul, he is the one who made the website, this is just a Desktop Application that mirrors the Website!
+
+
 ### How to Install
 
 ### Via pre build installer
