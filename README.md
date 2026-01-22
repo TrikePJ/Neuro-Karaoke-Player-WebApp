@@ -12,7 +12,7 @@
 
 2. **Clone the repo**
    ```bash
-   git clone https://github.com/TrikePJ/Neuro-Karaoke-Player-Test.git
+   git clone https://github.com/TrikePJ/Neuro-Karaoke-Player-WebApp.git
    ```
 
 4. **Install Dependencies**
